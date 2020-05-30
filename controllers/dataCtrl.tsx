@@ -1,7 +1,6 @@
 /**
  * Remote data controller
  */
-import { notice } from "@/core"
 import graphqlSer from "../services/graphqlSer"
 import { DataCtrl } from "../types"
 
@@ -15,11 +14,6 @@ export default async function dataCtrl({
   const { data: res, errors } = await graphqlSer({ query })
 
   if (errors) {
-    await notice({
-      title: "Request failed",
-      severity: "error",
-      content: JSON.stringify(errors)
-    })
     return {
       page: page,
       data: [],

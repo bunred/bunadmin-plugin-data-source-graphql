@@ -12,6 +12,7 @@ export interface ServiceProps {
   url?: string
   prefix?: string
   headers?: any
+  onError?: (errors: any) => Promise<void>
 }
 
 export interface EditableCtrl {
