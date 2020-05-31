@@ -36,7 +36,7 @@ export default async function graphqlSer({
       })
     }
 
-    return
+    return { errors: "Net Errors" }
   }
 
   return res
