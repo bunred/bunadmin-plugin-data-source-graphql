@@ -21,8 +21,6 @@ export interface EditableCtrl {
 
 export interface ListQuery {
   SchemaName: string
-  page: number
-  pageSize: number
 }
 
 export interface InsertQuery<RowData> {

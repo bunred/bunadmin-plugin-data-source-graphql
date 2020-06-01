@@ -9,9 +9,14 @@ export default async function dataCtrl({
   tableQuery,
   query
 }: DataCtrl) {
-  const { page } = tableQuery
+  const { page, pageSize } = tableQuery
 
-  const { data: res, errors } = await graphqlSer({ query })
+  const variables = {
+    limit: pageSize,
+    offset: pageSize * page
+  }
+
+  const { data: res, errors } = await graphqlSer({ query, variables })
 
   if (errors) {
     return {
