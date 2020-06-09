@@ -18,6 +18,6 @@
   "plugin-bunadmin-version": "1.0.1",
   "plugin-download": {
     "type": "git",
-    "url": "https://github.com/bunred/bunadmin-plugin-data-source-graphql/archive/1.0.0-alpha.1.zip"
+    "url": "https://github.com/bunred/bunadmin-plugin-data-source-graphql/archive/1.0.0-alpha.2.zip"
   }
 }
