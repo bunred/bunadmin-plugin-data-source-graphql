@@ -1,7 +1,7 @@
 {
   "enable": true,
   "name": "bunadmin graphql data resource",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "data resource for graphql",
   "license": "Apache-2.0",
   "repository": {
@@ -14,7 +14,7 @@
   "plugin-navigation": "data-source",
   "plugin-author": "bunred",
   "plugin-folder": "data-source-graphql",
-  "plugin-version": "1.0.1",
+  "plugin-version": "1.0.2",
   "plugin-bunadmin-version": "1.0.1",
   "plugin-download": {
     "type": "git",
